@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.JCard">
+  <grid id="27dc6" binding="mainPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="195" height="292"/>
+    </constraints>
+    <properties/>
+    <border type="line">
+      <title-color color="-4473925"/>
+      <color color="-4473925"/>
+    </border>
+    <children>
+      <grid id="2f4c2" binding="faceUpPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <card name="Card1"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f1067" class="javax.swing.JLabel" binding="cardValueLabel1">
+            <constraints border-constraint="North"/>
+            <properties>
+              <font name="Fira Code Retina" size="20"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="6a49f" class="javax.swing.JLabel" binding="cardValueLabel2">
+            <constraints border-constraint="South"/>
+            <properties>
+              <font name="Fira Code Retina" size="20"/>
+              <horizontalAlignment value="4"/>
+              <text value="lable"/>
+            </properties>
+          </component>
+          <component id="f3b95" class="javax.swing.JLabel" binding="suiteImageLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Droid Sans Mono" size="28"/>
+              <horizontalAlignment value="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8646f" binding="faceDownPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <card name="Card2"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
